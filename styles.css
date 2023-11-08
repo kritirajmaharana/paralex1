@@ -1,0 +1,144 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: white;
+}
+html,body{
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+	width: 100%;
+
+}
+#nav{
+	height: 68px;
+	width:100%;
+	/* background-color:black; */
+	display: flex;
+	position: absolute;
+	align-items: center;
+	padding: 12px 15%;
+	justify-content: flex-start;
+	gap:7%;
+	text-transform: uppercase;
+	font-size: small;
+	position: fixed;
+	z-index: 99;
+	text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.404);
+}
+#nav img{
+	height:30px;
+	width: auto;
+	padding-right: 6%;
+}
+main{
+	position:relative;
+	background-color: gray;
+	height: 100vh;
+	width:100vw;
+	overflow:hidden;
+}
+.parallax{
+	pointer-events: none;
+	transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+	
+}
+.background{
+	position:absolute;
+	width:150%;
+	top: calc(50% + 50px);
+	left: calc(50% + 10px);
+
+}
+.rightbig{
+	position:absolute;
+	width:100%;
+	top: calc(50% + 40px);
+	left: calc(50% + 190px);
+
+}
+.leftsmall{
+	position:absolute;
+	width:100%;
+	top: calc(50% + 60px);
+	left: calc(50% - 120px);
+}
+.rightLittle{
+	position:absolute;
+	width:100%;
+	top: calc(50% - 0px);
+	left: calc(50% + 30px);
+}
+.fog5{
+	position:absolute;
+	width:100%;
+	mix-blend-mode: screen;
+	top: calc(50% - 40px);
+	left: calc(50% -40px);
+
+
+}
+.fog4{
+	position:absolute;
+	width:100%;
+	mix-blend-mode: screen;
+	top: calc(50% - 40px);
+	left: calc(50% + 120px);
+
+}
+.fog3{
+	position:absolute;
+	width:100%;
+	mix-blend-mode: screen;
+	top: calc(50% - 40px);
+	left: calc(50% + 120px);
+
+}
+.fog2{
+	position:absolute;
+	width:100%;
+	mix-blend-mode: screen;
+	top: calc(50% - 40px);
+	left: calc(50% + 120px);
+
+}
+.fog1{
+	position:absolute;
+	width:100%;
+	mix-blend-mode: screen;
+	top: calc(50% - 40px);
+	left: calc(50% + 120px);
+
+}
+.ray{
+	position:absolute;
+	width:100%;
+	top: calc(50% - 500px);
+	left: calc(50% - 800px);
+
+}.discover{
+	position:absolute;
+	width:100%;
+	top: calc(50% + 130px);
+	left: calc(50% + 30px);
+}.man{
+	position:absolute;
+	width:100%;
+	top: calc(50% - 40px);
+	left: calc(50% - 10px);
+}.nature{
+	position:absolute;
+	width:100%;
+	top: calc(50% + 130px);
+	left: calc(50% + 30px);
+}
+.stone{
+	position:absolute;
+	width:100%;
+	top: calc(50% - 40px);
+	left: calc(50% + 10px);
+}
